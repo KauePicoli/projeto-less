@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página da Anita</title>
+    <link rel="stylesheet" href="build/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="profile-avatar" src="src/images/anita.png" alt="">
+            <div class="profile-bio">
+                <h1 class="profile-bio-name">Aulas de reforço</h1>
+                <p class="profile-bio-description">Graduanda em Ciências Biológicas pela UERJ (Licenciatura/Bacharel) <br>
+                    Desde a infância amo a ciência, especialmente a biologia marinha e a área de pesquisa, e o meu objetivo é transmitir essa paixão desmistificando a ciência!</p>
+            </div>
+        </header>
+        <nav>
+            <ul class="social-links">
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/anita_foonseca/">
+                        <img src="src/images/instagram.svg" alt="Logo do instagram">
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/anita-fonseca-9757682b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img src="src/images/linkedin.svg" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://wa.me/+5521974634447?text=oii%20Any%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20aula%20de%20refor%C3%A7o">
+                        <img src="src/images/phone.svg" alt="whats">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="projects-list">
+            <ul>
+                <li class="projects-list-item">
+                    <a target="_blank" href="https://drive.google.com/file/d/1AhZKt-KkkgJp7uEOp567cp8HKmyC5PBi/view?usp=sharing">
+                        Visite a tabela
+                    </a>
+                </li>
+                <li>
+                    <button type="button">Métodos de ensino</button>
+                    <textarea readonly disabled name="" id="">
+                        • Listas de questões elaboradas de acordo com a faixa etária do aluno, podendo ser conduzidas em conjunto ou individualmente, e posteriormente serão corrigidas para identificar quais tópicos apresentam maior dificuldade. 
+                        • Reforço em atividades escolares trazidas pelo próprio aluno.
+                        • Para os pequenos amantes pela ciência, um guia dando um breve aprofundamento em áreas de estudo do interesse do aluno.
+                    </textarea>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+        $("textarea").fadeIn()
+            })
+        })
+    </script>
+</body>
+</html>
